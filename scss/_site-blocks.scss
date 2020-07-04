@@ -882,7 +882,7 @@ $color-tertiary: #ff5733;
 
 	}
 	.price {
-		color: $black;
+		color: $primary;
 		.currency {
 			position: relative;
 			top: -1em;
@@ -890,7 +890,7 @@ $color-tertiary: #ff5733;
 		}
 		.number {
 			font-size: 40px;	
-			color: $black;
+			color: $primary;
 			font-weight: bold;
 		}
 	}

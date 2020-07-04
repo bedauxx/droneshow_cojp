@@ -1,17 +1,18 @@
 body {
 	line-height: 1.7;
 	// color: lighten($black, 30%);
-	color: lighten($black, 50%);
+	color: lighten($white, 50%);
 	font-weight: 300;
 	font-size: $font-size-base;
 	font-family: $font-family-sans-serif;
+	background-color: $black;
 }
 ::-moz-selection { 
-	background: $black;
+	background: $blue;
 	color: $white;
 }
 ::selection { 
-	background: $black;
+	background: $blue;
 	color: $white;
 }
 a {
@@ -21,14 +22,20 @@ a {
 	}
 }
 h1, h2, h3, h4, h5, h6 {
-	color: $black;
+	color: $white;
 }
 
 .text-black {
 	color: $black!important;
 }
+.text-white {
+	color: $white!important;
+}
 .bg-black {
 	background: $black!important;
+}
+.bg-white {
+	background: $white!important;
 }
 
 .site-wrap {
@@ -84,8 +91,10 @@ h1, h2, h3, h4, h5, h6 {
 	}
 	&.btn-primary {
 		color: $white;
+		background-color: $blue !important;
+		border-color: $blue !important;
 		&:hover, &:focus, &:active {
-			color: $black;
+			color: $white;
 			background-color: transparent!important;
 		}
 	}
